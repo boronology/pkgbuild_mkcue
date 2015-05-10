@@ -6,15 +6,11 @@ pkgdesc="Generate CUE Sheet from CD"
 arch=('i686' 'x86_64')
 url="https://code.google.com/p/abcde/"
 license=('GPL')
-depends=('gcc-libs')
-makedepends=('make')
-checkdepends=()
 provides=(mkcue)
-options=('emptydirs')
 source=('https://abcde.googlecode.com/svn/mkcue/source/mkcue_1.orig.tar.gz'
 	'https://abcde.googlecode.com/svn/mkcue/binaries/mkcue_1-1_i386.deb')
-md5sums=('SKIP'
-	 'SKIP')
+md5sums=('de082e40baf042e23246d54d28cbcdcc'
+         '20656ece15fa8b76cd0c9cf3f15fba53')
 
 build() {
 	# prepare man file
