@@ -1,0 +1,13 @@
+* mkcueのためのPKGBUILD
+** なんぞこれ
+   mkcueのArch Linux用パッケージファイルを作るためのPKGBUILD。
+   現在AURにあるのは高頻度でsourceが落ちているので作ってみた。
+   [[https://aur.archlinux.org/packages/mkcue/][参考:AUR]]
+   ただどうもGoogle Codeにあるmkcueって古いみたいなんだよな……
+** 依存
+   makeのみ(のはず)なのでbaseとbase-develがインストールされていれば十分。
+** 使い方
+   : git clone https://github.com/boronology/pkgbuild_mkcue.git
+   : cd pkgbuild_mkcue
+   : makepkg
+   : pacman -U mkcue-1_1-1-x86_64.pkg.tar
