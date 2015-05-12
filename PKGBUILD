@@ -1,12 +1,13 @@
 # Maintainer: boronology <boronology at gmail.com>
-pkgname=mkcue
+pkgname=mkcue_still
 pkgver=1_1
 pkgrel=1
-pkgdesc="Generate CUE Sheet from CD"
+pkgdesc="Generate CUE Sheet from CD(from original repo)"
 arch=('i686' 'x86_64')
 url="https://code.google.com/p/abcde/"
 license=('GPL')
 provides=(mkcue)
+conflicts=(mkcue)
 source=('https://abcde.googlecode.com/svn/mkcue/source/mkcue_1.orig.tar.gz'
 	'https://abcde.googlecode.com/svn/mkcue/binaries/mkcue_1-1_i386.deb')
 md5sums=('de082e40baf042e23246d54d28cbcdcc'
