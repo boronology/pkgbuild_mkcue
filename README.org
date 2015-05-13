@@ -2,11 +2,13 @@
 ** なんぞこれ
    mkcueのArch Linux用パッケージファイルを作るためのPKGBUILD。
 
-   [[https://aur.archlinux.org/packages/mkcue/][現在AURにあるの]] sourceが落ちているので作ってみた。
+   [[https://aur.archlinux.org/packages/mkcue/][現在AURにあるの]] のsourceが落ちているので作ってみた。
 
    [[https://code.google.com/p/abcde/source/browse/mkcue/#mkcue%2Fsource][Google Codeにあるmkcue]] は2005年以来更新されていないが
 
    [[http://metadata.ftp-master.debian.org/changelogs//main/m/mkcue/mkcue_1-2.1_changelog][Debianの更新履歴]] を見る限り最新扱いでいいはず。
+
+   Debパッケージはman pageのためだけに使用している。
 
 ** 依存
    makeのみ(のはず)なのでbaseとbase-develがインストールされていれば十分。
@@ -15,4 +17,4 @@
    : git clone https://github.com/boronology/pkgbuild_mkcue.git
    : cd pkgbuild_mkcue
    : makepkg
-   : pacman -U mkcue-1_1-1-x86_64.pkg.tar
+   : pacman -U mkcue_still-1_1-1-x86_64.pkg.tar
