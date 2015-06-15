@@ -1,8 +1,8 @@
 # Maintainer: boronology <boronology at gmail.com>
 pkgname=mkcue_still
 pkgver=1_1
-pkgrel=1
-pkgdesc="Generate CUE Sheet from CD(from original repo)"
+pkgrel=2
+pkgdesc="Generate CUE Sheet from CD(Build from original repo)"
 arch=('i686' 'x86_64')
 url="https://code.google.com/p/abcde/"
 license=('GPL')
